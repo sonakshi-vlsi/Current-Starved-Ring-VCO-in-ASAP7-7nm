@@ -27,7 +27,3 @@ The phase-noise values are reported at their respective simulated operating poin
 Spectre PSS/Pnoise analysis attributed about **75% of the baseline phase-noise contribution** to the shared bias network. In the redesigned circuit, we removed the second bias leg and its associated degeneration resistor, then drove the NMOS current-starving gates directly from the control voltage. The ring, device sizing, and output buffers stayed the same.
 
 The redesigned bias improved the FoM but narrowed the tuning window. Average VCO gain increased from about **5.0 to 8.9 GHz/V**, so a given disturbance on the control voltage produces a larger frequency shift. At the same nominal frequency, the simulated spread across process, voltage, and temperature (PVT) was roughly twice as large. For PLL use, the choice depends on both oscillator noise and the tuning margin needed across corners.
-
-## Team
-
-Sonakshi Agrawal, E. Vyshnavi, Katakam Shrihita, and Misha Maria Tomy · VIT Chennai
